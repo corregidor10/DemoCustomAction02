@@ -11,7 +11,7 @@ window.Cust.accordionItem = {
 (function() {
     var appWebUrl = decodeURIComponent(getQueryStringParameter("SPAppWebUrl"));
     var scriptFolder = appWebUrl + "/SiteAssets/";
-    loadcssfile(scriptFolder + "jqueryui.css", "css");
+    loadcssfile(scriptFolder + "jquery-ui.css", "css");
 
     var overrideCtx = {};
     overrideCtx.Templates = {};
@@ -19,21 +19,22 @@ window.Cust.accordionItem = {
     overrideCtx.Templates.Item = window.Cust.accordionItem.customeItemHtml;
     overrideCtx.Templates.Footer = "</div>";
     overrideCtx.BaseViewID = 1;
-    overrideCtx.ListTemplateType = 10000;
+    overrideCtx.ListTemplateType = 11000;
 
+    // Register the template overrides.
     SPClientTemplates.TemplateManager.RegisterTemplateOverrides(overrideCtx);
 
 })();
 
 $(document).ready(function() {
-    $("#accordion").find("#scriptBodyWPQ1").remove();
-
-    $("#accordion").accordion({ heightStyle: "content" });
+    $("#accordion").find("#scriptBodyWPQ1").remove(); 
+    $("#accordion").width('70%');
+    $("#accordion").accordion();
 
 });
 
 function loadcssfile(filename, filetype) {
-    if (filetype=="css") {
+    if (filetype == "css") {
         var fileref = document.createElement("link");
         fileref.setAttribute("rel", "stylesheet");
         fileref.setAttribute("type", "text/css");
