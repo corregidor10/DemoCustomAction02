@@ -8,7 +8,7 @@
 >
   <Properties>
     <Title>DemoCustomAction02</Title>
-    <StartPage>~appWebUrl/Pages/Default.aspx?{StandardTokens}</StartPage>
+    <StartPage>~appWebUrl/Lists/Clientes?{StandardTokens}?{StandardTokens?{StandardTokens}</StartPage>
   </Properties>
 
   <AppPrincipal>

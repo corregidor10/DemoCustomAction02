@@ -43,12 +43,61 @@
     <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="AddJquery\Elements.xml" />
+    <Content Include="AddJquery\Sample.txt" />
+    <Content Include="Descripcion\Elements.xml" />
+    <Content Include="Nombre\Elements.xml" />
+    <Content Include="Scripts\customizeview.js" />
+    <Content Include="Scripts\jqueryui.js" />
+    <Content Include="SiteAssets\Elements.xml" />
+    <Content Include="SiteAssets\Images\animated-overlay.gif" />
+    <Content Include="SiteAssets\Images\ui-bg_diagonals-thick_90_eeeeee_40x40.png" />
+    <Content Include="SiteAssets\Images\ui-bg_flat_15_cd0a0a_40x100.png" />
+    <Content Include="SiteAssets\Images\ui-bg_glass_100_e4f1fb_1x400.png" />
+    <Content Include="SiteAssets\Images\ui-bg_glass_50_3baae3_1x400.png" />
+    <Content Include="SiteAssets\Images\ui-bg_glass_80_d7ebf9_1x400.png" />
+    <Content Include="SiteAssets\Images\ui-bg_highlight-hard_100_f2f5f7_1x100.png" />
+    <Content Include="SiteAssets\Images\ui-bg_highlight-hard_70_000000_1x100.png" />
+    <Content Include="SiteAssets\Images\ui-bg_highlight-soft_100_deedf7_1x100.png" />
+    <Content Include="SiteAssets\Images\ui-bg_highlight-soft_25_ffef8f_1x100.png" />
+    <Content Include="SiteAssets\Images\ui-icons_2694e8_256x240.png" />
+    <Content Include="SiteAssets\Images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="SiteAssets\Images\ui-icons_3d80b3_256x240.png" />
+    <Content Include="SiteAssets\Images\ui-icons_72a7cf_256x240.png" />
+    <Content Include="SiteAssets\Images\ui-icons_ffffff_256x240.png" />
+    <Content Include="SiteAssets\jquery-ui.css" />
+    <Content Include="SiteAssets\Sample.txt" />
+    <Content Include="Title\Elements.xml" />
+    <None Include="AddJquery\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{0b774cdc-b381-438a-b331-52ddc12d4d2b}</SharePointProjectItemId>
+    </None>
+    <None Include="Clientes\ClientesInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{cab0da8c-ed72-4149-8e1e-aa3f46866610}</SharePointProjectItemId>
+    </None>
+    <None Include="Clientes\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{40b1e8c7-6d69-4094-88a1-6addd110de38}</SharePointProjectItemId>
+    </None>
+    <None Include="Descripcion\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c078f836-ffbe-4586-b282-ce00b1e0dc3e}</SharePointProjectItemId>
+    </None>
+    <None Include="Nombre\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{0f1168e1-c5b2-48a8-ab79-513d0c3a8f36}</SharePointProjectItemId>
+    </None>
     <None Include="packages.config" />
     <None Include="Pages\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{807ceb91-b844-47d2-bc3b-580a40828221}</SharePointProjectItemId>
     </None>
+    <Content Include="Clientes\ClientesInstance\Elements.xml" />
+    <Content Include="Clientes\Elements.xml" />
+    <Content Include="Clientes\Schema.xml" />
     <Content Include="Pages\Elements.xml" />
     <Content Include="Pages\Default.aspx" />
+    <None Include="SiteAssets\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{fa27d615-dcdf-484e-8ccf-c8bf97aed95f}</SharePointProjectItemId>
+    </None>
+    <None Include="Title\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{74ff1110-8682-48d3-8a57-5a71b687fc20}</SharePointProjectItemId>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\jquery-1.9.1.min.map" />
